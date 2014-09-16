@@ -3,7 +3,7 @@ package LeetCode;
 public class DecodeWays {
 
 	public static void main(String[] args) {
-		String input = "101";
+		String input = "1218128";
 		DecodeWays d = new DecodeWays();
 		d.numDecodings(input);
 	}

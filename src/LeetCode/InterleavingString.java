@@ -4,7 +4,7 @@ public class InterleavingString {
 
 	public static void main(String[] args) {
 		InterleavingString i = new InterleavingString();
-		i.isInterleave("aabcc", "dbbca", "aadbbbaccc");
+		i.isInterleave("aabcc", "dbbca", "aadbbcbcac");
 	}
 	
 	

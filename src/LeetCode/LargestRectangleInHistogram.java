@@ -6,7 +6,7 @@ public class LargestRectangleInHistogram {
 
 	public static void main(String[] args) {
 		LargestRectangleInHistogram l = new LargestRectangleInHistogram();
-		int[] input = {4,2,0,3,2,5};
+		int[] input = {2,1,5,6,2,3};
 		l.largestRectangleArea(input);
 
 	}
