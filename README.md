@@ -1,4 +1,4 @@
-LeetCode-Java
+Interview Question Bank
 =============
 
-LeetCode quiz solutions in Java
+Interview quiz solutions in Java
