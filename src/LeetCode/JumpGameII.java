@@ -7,7 +7,7 @@ public class JumpGameII {
 
 	}
 
-	public int jump(int[] A) {
+	public static int jump(int[] A) {
 		int start = 0, end = 0, step = 0;
 		while(end < A.length){
 			int max = 0;

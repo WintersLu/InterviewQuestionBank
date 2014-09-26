@@ -3,7 +3,7 @@ package Linkedin;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class aaa {
+public class FirstInterview {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

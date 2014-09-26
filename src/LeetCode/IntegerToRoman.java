@@ -4,10 +4,10 @@ public class IntegerToRoman {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		intToRoman(756);
 	}
 
-	public String intToRoman(int num) {
+	public static String intToRoman(int num) {
 		char[] roman = { 'I', 'V', 'X', 'L', 'C', 'D', 'M' };
 		int[] val = { 1, 5, 10, 50, 100, 500, 1000 };
 
