@@ -4,7 +4,7 @@ public class FindDuplicate {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] arr = {1, 2, 8, 1, 3, 6, 6};
+		int[] arr = {1, 2, 2, 1, 3, 6, 6};
 		printRepeating(arr);
 	}
 	

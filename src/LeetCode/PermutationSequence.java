@@ -4,7 +4,7 @@ public class PermutationSequence {
 
 	public static void main(String[] args) {
 		PermutationSequence p = new PermutationSequence();
-		p.getPermutation(3, 7);
+		p.getPermutation(3, 3);
 
 	}
 	

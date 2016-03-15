@@ -3,12 +3,14 @@ package LeetCode;
 public class JumpGameII {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		int[] input = {2,1,0,1,4};
+		System.out.println(jump(input));
 
 	}
 
 	public static int jump(int[] A) {
 		int start = 0, end = 0, step = 0;
+		if(A.length <= 1) return 0;
 		while(end < A.length){
 			int max = 0;
 			step++;

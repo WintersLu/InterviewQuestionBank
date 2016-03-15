@@ -11,23 +11,20 @@ public class SimplifyPath {
 	}
 	
 	public String simplifyPath(String path) {
-		String result = "";
-        String[] paths = path.split("/");
+		String[] paths = path.split("/");
         Stack<String> stack = new Stack<String>();
-        
         for(int i=0; i<paths.length; i++){
-        	if(paths[i].equals(".")) continue;
-        	if(paths[i].trim().equals("")) continue;
-        	if(paths[i].equals("..")){
-        		if(!stack.isEmpty())
-        			stack.pop();
-        	}
-        	else stack.push(paths[i]);
+            if(paths[i].equals(".") || paths[i].equals("")) continue;
+            else if(paths[i].equals("..")){
+                if(!stack.isEmpty())
+                    stack.pop();
+            }
+            else stack.push(paths[i]);
         }
-        
+        String result = "";
         if(stack.isEmpty()) return "/";
         while(!stack.isEmpty()){
-        	result = "/" + stack.pop() + result;
+            result = "/" + stack.pop() + result;
         }
         return result;
     }

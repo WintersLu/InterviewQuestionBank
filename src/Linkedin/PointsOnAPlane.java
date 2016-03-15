@@ -42,6 +42,7 @@ public class PointsOnAPlane {
     Collection<Point> findNearest(Point center, int m){
     	
     	PriorityQueue<Point> pq = new PriorityQueue<Point>(10, new PointSort());
+    	
     	for(Point point: points){
     		pq.add(pointCompare(point, center));
     	}
